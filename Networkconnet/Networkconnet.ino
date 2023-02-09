@@ -1,4 +1,4 @@
-// <ESP8266WiFi.h> It is for the module liberary.
+// <ESP8266WiFi.h> It is for the module library.
 #include <ESP8266WiFi.h>
 
 void setup()
