@@ -1,0 +1,11 @@
+
+If you don’t see the last line but just more and more dots ........., 
+then likely name or password to the Wi-Fi network is entered incorrectly in the sketch. 
+Verify the name and password by connecting from scratch to this Wi-Fi network with a PC or a mobile phone.
+
+Note: if connection is established, and then lost for some reason, ESP will automatically 
+reconnect to the last used access point once it is again back on-line. This will be done automatically by 
+Wi-Fi library, without any user intervention.
+
+That’s all you need to connect ESP8266 to Wi-Fi. In the following chapters we will explain what cool things 
+can be done by the ESP once it’s connected.
