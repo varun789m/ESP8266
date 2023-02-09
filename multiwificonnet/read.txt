@@ -1,0 +1,3 @@
+ESP8266WiFiMulti.h can be used to connect to a WiFi network with strongest WiFi signal (RSSI).
+This requires registering one or more access points with SSID and password. 
+It automatically switches to another WiFi network when the WiFi connection is lost.
