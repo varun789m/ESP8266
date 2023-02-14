@@ -1,0 +1,3 @@
+Generally, the communication between each other can be done by using different natural sensors like gestures, tongue, etc 
+but when we want to share something secretly, we need a secret code. So by using a morse code, we can transmit the data 
+through secret code which is not understandable to the third person.
