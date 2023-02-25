@@ -5,6 +5,9 @@ import datetime
 import pyautogui
 import time
 import os
+import cv2
+
+
 
 def speak_joke():
     # Get a random joke from the pyjokes library
@@ -95,6 +98,25 @@ while True:
                 
             elif "chatgpt" in   text.lower(): 
                 chat()
+
+            elif "camera" in text.lower():
+                cap = cv2.VideoCapture(0) 
+                if not cap.isOpened():
+                    print("Error opening video stream or file")
+                while cap.isOpened():
+                    ret, frame = cap.read()
+                    if ret:
+                        cv2.imshow('Frame', frame)
+                        if cv2.waitKey(25) & 0xFF == ord('q'):
+                            break
+                    else:
+                        break
+                cap.release(TimeoutError=3)
+                cv2.destroyAllWindows()
+
+
+
+
                 
             elif "open"in text.lower():
                 pyautogui.typewrite(['command', 'space'], 0.2)
